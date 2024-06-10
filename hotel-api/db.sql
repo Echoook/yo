@@ -1,8 +1,8 @@
 -- Create Employee table
 CREATE TABLE `Employee` (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
-    `emp_first_name` VARCHAR(255) NOT NULL,
-    `emp_last_name` VARCHAR(255) NOT NULL
+    `first_name` VARCHAR(255) NOT NULL,
+    `last_name` VARCHAR(255) NOT NULL
 );
 
 -- Create Guest table
@@ -52,7 +52,7 @@ CREATE TABLE `Transport` (
 );
 
 -- Insert initial data into Employee table
-INSERT INTO `Employee` (`emp_first_name`, `emp_last_name`) VALUES
+INSERT INTO `Employee` (`first_name`, `last_name`) VALUES
 ('John', 'Doe'),
 ('Jane', 'Smith'),
 ('Michael', 'Johnson');
